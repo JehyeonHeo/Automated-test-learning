@@ -20,5 +20,5 @@ stages:
       displayName: Run Newman Tests
       continueOnError: true
       inputs:
-        script: 'newman run StarterAPIs.json'
-        workingDirectory: '/home/vsts/work/1/s/Automated-test-learning@main/'
+        script: 'ls'
+        workingDirectory: $(System.DefaultWorkingDirectory)
