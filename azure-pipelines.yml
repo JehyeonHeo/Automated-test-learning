@@ -20,5 +20,5 @@ stages:
       displayName: Run Newman Tests
       continueOnError: true
       inputs:
-        script: 'pwd'
+        script: 'newman run starterapis.json'
         workingDirectory: $(System.DefaultWorkingDirectory)
