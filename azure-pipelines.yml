@@ -20,5 +20,5 @@ stages:
       displayName: Run Newman Tests
       continueOnError: true
       inputs:
-        script: 'ls'
+        script: 'pwd'
         workingDirectory: $(System.DefaultWorkingDirectory)
